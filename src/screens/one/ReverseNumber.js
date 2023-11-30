@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './reverse-number.css';
 
-const ScreenOne = () => {
+const ReverseNumber = () => {
     const [reverseNumber, setReverseNumber] = useState('');
     const [reverseResult, setReverseResult] = useState('');
 
@@ -29,4 +29,4 @@ const ScreenOne = () => {
   )
 }
 
-export default ScreenOne;
+export default ReverseNumber;
