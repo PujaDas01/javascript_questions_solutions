@@ -1,0 +1,59 @@
+.reverse-number-wrapper {
+    background-color: rgb(241, 153, 121);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 2rem;
+}
+
+.reverse-number-wrapper h4 {
+    padding-bottom: 1rem;
+}
+
+.reverse-number-wrapper label {
+    font-size: 12px;
+    font-weight: 600;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.reverse-number-wrapper input {
+    padding: 0.5rem 0.8rem;
+    border-radius: 7px;
+    outline: transparent;
+    border: 1px solid black;
+}
+
+.reverse-number-wrapper input:focus {
+    background-color: rgb(216, 215, 215);
+    border: 1px solid grey;
+}
+
+.reverse-button {
+    border: none;
+    padding: 0.5rem 0.8rem;
+    border-radius: 7px;
+    margin-left: 0.2rem;
+    background-color: coral;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid rgb(90, 90, 90);
+}
+
+.reverse-button:hover {
+    background-color: black;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.reverse-button:active {
+    transform: scale(0.99);
+}
+
+.reverse-number-wrapper h3 {
+    padding-top: 1rem;
+}
+
+.reverse-number-wrapper h3 span {
+    color: black;
+}
